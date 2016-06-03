@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603359011D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */; };
 		605818EA1CF33A5A009AB78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605818E91CF33A5A009AB78F /* main.m */; };
 		605818ED1CF33A5A009AB78F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605818EC1CF33A5A009AB78F /* AppDelegate.m */; };
 		605818F31CF33A5A009AB78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605818F11CF33A5A009AB78F /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		603358FF1D01756900D3FCA4 /* UIBarButtonItem+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+MRExtension.h"; path = "MRExtension/UIKit_Categories/UIBarButtonItem+MRExtension.h"; sourceTree = SOURCE_ROOT; };
+		603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+MRExtension.m"; path = "MRExtension/UIKit_Categories/UIBarButtonItem+MRExtension.m"; sourceTree = SOURCE_ROOT; };
 		605818E51CF33A5A009AB78F /* MRExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605818E91CF33A5A009AB78F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605818EB1CF33A5A009AB78F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 		605819201CF33DA4009AB78F /* UIKit_Categories */ = {
 			isa = PBXGroup;
 			children = (
+				603358FF1D01756900D3FCA4 /* UIBarButtonItem+MRExtension.h */,
+				603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */,
 				605819231CF346FE009AB78F /* UIView+MRExtension.h */,
 				605819241CF346FE009AB78F /* UIView+MRExtension.m */,
 				605819261CF34B9B009AB78F /* UIImage+MRExtension.h */,
@@ -304,6 +309,7 @@
 				605818EA1CF33A5A009AB78F /* main.m in Sources */,
 				605819251CF346FE009AB78F /* UIView+MRExtension.m in Sources */,
 				605819281CF34B9B009AB78F /* UIImage+MRExtension.m in Sources */,
+				603359011D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +535,7 @@
 				605819141CF33A5A009AB78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605819151CF33A5A009AB78F /* Build configuration list for PBXNativeTarget "MRExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +544,7 @@
 				605819171CF33A5A009AB78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605819181CF33A5A009AB78F /* Build configuration list for PBXNativeTarget "MRExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +553,7 @@
 				6058191A1CF33A5A009AB78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

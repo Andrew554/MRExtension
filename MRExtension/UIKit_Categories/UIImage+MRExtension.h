@@ -39,7 +39,7 @@
  *
  *	@return	裁剪之后的图片
  */
-+ (instancetype)mr_imageWithClipImageNamed:(NSString *)clipImageName borderWidth:(CGFloat)borderWidth borderCorlor:(UIColor *)borderColor;
++ (instancetype)mr_imageWithClipImage:(UIImage *)clipImage borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
 
 
 /**
@@ -62,4 +62,56 @@
 + (instancetype)mr_imageWithCaptureView:(UIView *)view;
 
 
+/**
+ *	@brief	嵌套圆形图片
+ *
+ *	@param 	image 	外圆形
+ *	@param 	centerImage 	中心圆形
+ *
+ *	@return	嵌套圆形
+ */
++ (UIImageView *)imageViewWithImage:(UIImage *)image centerImage:(UIImage *)centerImage;
+
+
+/**
+ *  根据CIImage生成指定大小的UIImage
+ *
+ *  @param image CIImage
+ *  @param size  图片宽度
+ */
++ (instancetype)mr_createNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat) size;
+
+/**
+ *	@brief	快速生成二维码
+ *
+ *	@param 	inputData 	数据
+ *	@param 	size 	尺寸
+ *
+ *	@return	二维码
+ */
++ (instancetype)mr_createQRCodeWithInputData:(NSData *)inputData size:(CGFloat)size
+;
+
+/**
+ *	@brief	快速生成中间有图片的二维码
+ *
+ *	@param 	inputData 	数据
+ *	@param 	centerImage 	中间图片
+ *	@param 	size 	尺寸
+ *
+ *	@return	二维码
+ */
++ (instancetype)mr_createQRCodeWithInputData:(NSData *)inputData  centerImage:(UIImage *)centerImage size:(CGFloat)size
+;
+
+/**
+ *	@brief	快速生成一张黑白图片
+ *
+ *	@param 	image 	图片
+ *	@param 	size 	尺寸
+ *
+ *	@return	黑白图片
+ */
++ (UIImage *)mr_createMonochromeWithOriginalImage:(UIImage *)image withSize:(CGFloat)size
+;
 @end
