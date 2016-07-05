@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017466181D2C1B5C004472AA /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 017466171D2C1B5C004472AA /* Foundation+Log.m */; };
 		603359011D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */; };
 		605818EA1CF33A5A009AB78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605818E91CF33A5A009AB78F /* main.m */; };
 		605818ED1CF33A5A009AB78F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605818EC1CF33A5A009AB78F /* AppDelegate.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017466171D2C1B5C004472AA /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		603358FF1D01756900D3FCA4 /* UIBarButtonItem+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+MRExtension.h"; path = "MRExtension/UIKit_Categories/UIBarButtonItem+MRExtension.h"; sourceTree = SOURCE_ROOT; };
 		603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+MRExtension.m"; path = "MRExtension/UIKit_Categories/UIBarButtonItem+MRExtension.m"; sourceTree = SOURCE_ROOT; };
 		605818E51CF33A5A009AB78F /* MRExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017466161D2C1B5C004472AA /* Foundation_Categories */ = {
+			isa = PBXGroup;
+			children = (
+				017466171D2C1B5C004472AA /* Foundation+Log.m */,
+			);
+			path = Foundation_Categories;
+			sourceTree = "<group>";
+		};
 		605818DC1CF33A5A009AB78F = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +120,7 @@
 		605818E71CF33A5A009AB78F /* MRExtension */ = {
 			isa = PBXGroup;
 			children = (
-				605819211CF33DAA009AB78F /* Foundation_Categories */,
+				017466161D2C1B5C004472AA /* Foundation_Categories */,
 				605819201CF33DA4009AB78F /* UIKit_Categories */,
 				605818EB1CF33A5A009AB78F /* AppDelegate.h */,
 				605818EC1CF33A5A009AB78F /* AppDelegate.m */,
@@ -163,14 +173,6 @@
 			);
 			name = UIKit_Categories;
 			path = "UIKit:Categories";
-			sourceTree = "<group>";
-		};
-		605819211CF33DAA009AB78F /* Foundation_Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Foundation_Categories;
-			path = "Foundation:Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				605818ED1CF33A5A009AB78F /* AppDelegate.m in Sources */,
+				017466181D2C1B5C004472AA /* Foundation+Log.m in Sources */,
 				6058191D1CF33B26009AB78F /* MRViewController.m in Sources */,
 				605818EA1CF33A5A009AB78F /* main.m in Sources */,
 				605819251CF346FE009AB78F /* UIView+MRExtension.m in Sources */,

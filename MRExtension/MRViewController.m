@@ -16,6 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSArray *array = @[@"1ff", @"fdsf", @"fdsfsd"];
+    
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    
+    dic[@"a"] = @"aa";
+    
+    dic[@"bb"] = @"bbb";
+    
+    dic[@"ccc"] = array;
+    
+    dic[@"dd"] = @(1);
+    
+    NSLog(@"%@", dic);
+    
     // Do any additional setup after loading the view.
 }
 
