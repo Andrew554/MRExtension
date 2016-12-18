@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017466181D2C1B5C004472AA /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 017466171D2C1B5C004472AA /* Foundation+Log.m */; };
-		603359011D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */; };
 		605818EA1CF33A5A009AB78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605818E91CF33A5A009AB78F /* main.m */; };
 		605818ED1CF33A5A009AB78F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605818EC1CF33A5A009AB78F /* AppDelegate.m */; };
 		605818F31CF33A5A009AB78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605818F11CF33A5A009AB78F /* Main.storyboard */; };
@@ -17,8 +15,31 @@
 		605819031CF33A5A009AB78F /* MRExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605819021CF33A5A009AB78F /* MRExtensionTests.m */; };
 		6058190E1CF33A5A009AB78F /* MRExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6058190D1CF33A5A009AB78F /* MRExtensionUITests.m */; };
 		6058191D1CF33B26009AB78F /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6058191C1CF33B26009AB78F /* MRViewController.m */; };
-		605819251CF346FE009AB78F /* UIView+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 605819241CF346FE009AB78F /* UIView+MRExtension.m */; };
-		605819281CF34B9B009AB78F /* UIImage+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 605819271CF34B9B009AB78F /* UIImage+MRExtension.m */; };
+		6BF608641E0676F800BDF67C /* LYNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF608631E0676F800BDF67C /* LYNetworkTool.m */; };
+		6BF6086F1E0677D800BDF67C /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6086E1E0677D800BDF67C /* HttpTool.m */; };
+		6BF609FA1E067AC900BDF67C /* CXXChooseImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609901E067AC800BDF67C /* CXXChooseImageViewController.m */; };
+		6BF609FB1E067AC900BDF67C /* CXXPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609921E067AC800BDF67C /* CXXPhotoCell.m */; };
+		6BF609FC1E067AC900BDF67C /* CXXPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF609931E067AC800BDF67C /* CXXPhotoCell.xib */; };
+		6BF609FD1E067AC900BDF67C /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609961E067AC800BDF67C /* TZAssetCell.m */; };
+		6BF609FE1E067AC900BDF67C /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609981E067AC800BDF67C /* TZAssetModel.m */; };
+		6BF609FF1E067AC900BDF67C /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6099A1E067AC800BDF67C /* TZImageManager.m */; };
+		6BF60A001E067AC900BDF67C /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6099B1E067AC800BDF67C /* TZImagePickerController.bundle */; };
+		6BF60A011E067AC900BDF67C /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6099D1E067AC800BDF67C /* TZImagePickerController.m */; };
+		6BF60A021E067AC900BDF67C /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6099F1E067AC800BDF67C /* TZPhotoPickerController.m */; };
+		6BF60A031E067AC900BDF67C /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609A11E067AC800BDF67C /* TZPhotoPreviewCell.m */; };
+		6BF60A041E067AC900BDF67C /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609A31E067AC800BDF67C /* TZPhotoPreviewController.m */; };
+		6BF60A051E067AC900BDF67C /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609A51E067AC800BDF67C /* TZVideoPlayerController.m */; };
+		6BF60A061E067AC900BDF67C /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF609A71E067AC800BDF67C /* UIView+Layout.m */; };
+		6BF60B421E067C3800BDF67C /* UIBarButtonItem+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AE31E067C3800BDF67C /* UIBarButtonItem+MRExtension.m */; };
+		6BF60B431E067C3800BDF67C /* UIImage+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AE51E067C3800BDF67C /* UIImage+MRExtension.m */; };
+		6BF60B441E067C3800BDF67C /* UIView+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AE71E067C3800BDF67C /* UIView+MRExtension.m */; };
+		6BF60B451E067C3800BDF67C /* MRVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AEA1E067C3800BDF67C /* MRVerticalButton.m */; };
+		6BF60B471E067C3800BDF67C /* MRMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AEE1E067C3800BDF67C /* MRMainTableView.m */; };
+		6BF60B481E067C3800BDF67C /* MRPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AF01E067C3800BDF67C /* MRPageView.m */; };
+		6BF60B491E067C3800BDF67C /* MRSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AF21E067C3800BDF67C /* MRSegment.m */; };
+		6BF60B4A1E067C3800BDF67C /* MRRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AF41E067C3800BDF67C /* MRRadioView.m */; };
+		6BF60B4B1E067C3800BDF67C /* MRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AF61E067C3800BDF67C /* MRTextView.m */; };
+		6BF60B4D1E067C3800BDF67C /* XYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF60AFA1E067C3800BDF67C /* XYLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017466171D2C1B5C004472AA /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
-		603358FF1D01756900D3FCA4 /* UIBarButtonItem+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+MRExtension.h"; path = "MRExtension/UIKit_Categories/UIBarButtonItem+MRExtension.h"; sourceTree = SOURCE_ROOT; };
-		603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+MRExtension.m"; path = "MRExtension/UIKit_Categories/UIBarButtonItem+MRExtension.m"; sourceTree = SOURCE_ROOT; };
 		605818E51CF33A5A009AB78F /* MRExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605818E91CF33A5A009AB78F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605818EB1CF33A5A009AB78F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,10 +76,54 @@
 		6058190F1CF33A5A009AB78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6058191B1CF33B26009AB78F /* MRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
 		6058191C1CF33B26009AB78F /* MRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
-		605819231CF346FE009AB78F /* UIView+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MRExtension.h"; path = "MRExtension/UIKit_Categories/UIView+MRExtension.h"; sourceTree = SOURCE_ROOT; };
-		605819241CF346FE009AB78F /* UIView+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MRExtension.m"; path = "MRExtension/UIKit_Categories/UIView+MRExtension.m"; sourceTree = SOURCE_ROOT; };
-		605819261CF34B9B009AB78F /* UIImage+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MRExtension.h"; path = "MRExtension/UIKit_Categories/UIImage+MRExtension.h"; sourceTree = SOURCE_ROOT; };
-		605819271CF34B9B009AB78F /* UIImage+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MRExtension.m"; path = "MRExtension/UIKit_Categories/UIImage+MRExtension.m"; sourceTree = SOURCE_ROOT; };
+		6BF608621E0676F800BDF67C /* LYNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetworkTool.h; sourceTree = "<group>"; };
+		6BF608631E0676F800BDF67C /* LYNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetworkTool.m; sourceTree = "<group>"; };
+		6BF6086E1E0677D800BDF67C /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		6BF608771E06799100BDF67C /* HttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		6BF6098F1E067AC800BDF67C /* CXXChooseImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXXChooseImageViewController.h; sourceTree = "<group>"; };
+		6BF609901E067AC800BDF67C /* CXXChooseImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXXChooseImageViewController.m; sourceTree = "<group>"; };
+		6BF609911E067AC800BDF67C /* CXXPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXXPhotoCell.h; sourceTree = "<group>"; };
+		6BF609921E067AC800BDF67C /* CXXPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXXPhotoCell.m; sourceTree = "<group>"; };
+		6BF609931E067AC800BDF67C /* CXXPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXXPhotoCell.xib; sourceTree = "<group>"; };
+		6BF609951E067AC800BDF67C /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		6BF609961E067AC800BDF67C /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		6BF609971E067AC800BDF67C /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		6BF609981E067AC800BDF67C /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		6BF609991E067AC800BDF67C /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		6BF6099A1E067AC800BDF67C /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		6BF6099B1E067AC800BDF67C /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		6BF6099C1E067AC800BDF67C /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		6BF6099D1E067AC800BDF67C /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		6BF6099E1E067AC800BDF67C /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		6BF6099F1E067AC800BDF67C /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		6BF609A01E067AC800BDF67C /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		6BF609A11E067AC800BDF67C /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		6BF609A21E067AC800BDF67C /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		6BF609A31E067AC800BDF67C /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		6BF609A41E067AC800BDF67C /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		6BF609A51E067AC800BDF67C /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		6BF609A61E067AC800BDF67C /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		6BF609A71E067AC800BDF67C /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		6BF60AE21E067C3800BDF67C /* UIBarButtonItem+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MRExtension.h"; sourceTree = "<group>"; };
+		6BF60AE31E067C3800BDF67C /* UIBarButtonItem+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MRExtension.m"; sourceTree = "<group>"; };
+		6BF60AE41E067C3800BDF67C /* UIImage+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MRExtension.h"; sourceTree = "<group>"; };
+		6BF60AE51E067C3800BDF67C /* UIImage+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MRExtension.m"; sourceTree = "<group>"; };
+		6BF60AE61E067C3800BDF67C /* UIView+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MRExtension.h"; sourceTree = "<group>"; };
+		6BF60AE71E067C3800BDF67C /* UIView+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MRExtension.m"; sourceTree = "<group>"; };
+		6BF60AE91E067C3800BDF67C /* MRVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRVerticalButton.h; sourceTree = "<group>"; };
+		6BF60AEA1E067C3800BDF67C /* MRVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRVerticalButton.m; sourceTree = "<group>"; };
+		6BF60AED1E067C3800BDF67C /* MRMainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMainTableView.h; sourceTree = "<group>"; };
+		6BF60AEE1E067C3800BDF67C /* MRMainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMainTableView.m; sourceTree = "<group>"; };
+		6BF60AEF1E067C3800BDF67C /* MRPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPageView.h; sourceTree = "<group>"; };
+		6BF60AF01E067C3800BDF67C /* MRPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPageView.m; sourceTree = "<group>"; };
+		6BF60AF11E067C3800BDF67C /* MRSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSegment.h; sourceTree = "<group>"; };
+		6BF60AF21E067C3800BDF67C /* MRSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSegment.m; sourceTree = "<group>"; };
+		6BF60AF31E067C3800BDF67C /* MRRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRRadioView.h; sourceTree = "<group>"; };
+		6BF60AF41E067C3800BDF67C /* MRRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRRadioView.m; sourceTree = "<group>"; };
+		6BF60AF51E067C3800BDF67C /* MRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTextView.h; sourceTree = "<group>"; };
+		6BF60AF61E067C3800BDF67C /* MRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTextView.m; sourceTree = "<group>"; };
+		6BF60AF91E067C3800BDF67C /* XYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLabel.h; sourceTree = "<group>"; };
+		6BF60AFA1E067C3800BDF67C /* XYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,14 +151,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		017466161D2C1B5C004472AA /* Foundation_Categories */ = {
-			isa = PBXGroup;
-			children = (
-				017466171D2C1B5C004472AA /* Foundation+Log.m */,
-			);
-			path = Foundation_Categories;
-			sourceTree = "<group>";
-		};
 		605818DC1CF33A5A009AB78F = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +174,10 @@
 		605818E71CF33A5A009AB78F /* MRExtension */ = {
 			isa = PBXGroup;
 			children = (
-				017466161D2C1B5C004472AA /* Foundation_Categories */,
-				605819201CF33DA4009AB78F /* UIKit_Categories */,
+				6BF609371E067AC800BDF67C /* ThirdLibs */,
+				6B4A773D1E06764800BFFEE7 /* MRTools */,
+				6BF60AE11E067C3800BDF67C /* UIKit_Categories */,
+				6BF60AE81E067C3800BDF67C /* UIKit_Custom */,
 				605818EB1CF33A5A009AB78F /* AppDelegate.h */,
 				605818EC1CF33A5A009AB78F /* AppDelegate.m */,
 				6058191B1CF33B26009AB78F /* MRViewController.h */,
@@ -161,18 +217,104 @@
 			path = MRExtensionUITests;
 			sourceTree = "<group>";
 		};
-		605819201CF33DA4009AB78F /* UIKit_Categories */ = {
+		6B4A773D1E06764800BFFEE7 /* MRTools */ = {
 			isa = PBXGroup;
 			children = (
-				603358FF1D01756900D3FCA4 /* UIBarButtonItem+MRExtension.h */,
-				603359001D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m */,
-				605819231CF346FE009AB78F /* UIView+MRExtension.h */,
-				605819241CF346FE009AB78F /* UIView+MRExtension.m */,
-				605819261CF34B9B009AB78F /* UIImage+MRExtension.h */,
-				605819271CF34B9B009AB78F /* UIImage+MRExtension.m */,
+				6BF608771E06799100BDF67C /* HttpTool.h */,
+				6BF6086E1E0677D800BDF67C /* HttpTool.m */,
+				6BF608621E0676F800BDF67C /* LYNetworkTool.h */,
+				6BF608631E0676F800BDF67C /* LYNetworkTool.m */,
 			);
-			name = UIKit_Categories;
-			path = "UIKit:Categories";
+			path = MRTools;
+			sourceTree = "<group>";
+		};
+		6BF609371E067AC800BDF67C /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6098D1E067AC800BDF67C /* MRImagePicker */,
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		6BF6098D1E067AC800BDF67C /* MRImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6098E1E067AC800BDF67C /* CXXChooseImage */,
+				6BF609941E067AC800BDF67C /* TZImagePickerController */,
+			);
+			path = MRImagePicker;
+			sourceTree = "<group>";
+		};
+		6BF6098E1E067AC800BDF67C /* CXXChooseImage */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6098F1E067AC800BDF67C /* CXXChooseImageViewController.h */,
+				6BF609901E067AC800BDF67C /* CXXChooseImageViewController.m */,
+				6BF609911E067AC800BDF67C /* CXXPhotoCell.h */,
+				6BF609921E067AC800BDF67C /* CXXPhotoCell.m */,
+				6BF609931E067AC800BDF67C /* CXXPhotoCell.xib */,
+			);
+			path = CXXChooseImage;
+			sourceTree = "<group>";
+		};
+		6BF609941E067AC800BDF67C /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				6BF609951E067AC800BDF67C /* TZAssetCell.h */,
+				6BF609961E067AC800BDF67C /* TZAssetCell.m */,
+				6BF609971E067AC800BDF67C /* TZAssetModel.h */,
+				6BF609981E067AC800BDF67C /* TZAssetModel.m */,
+				6BF609991E067AC800BDF67C /* TZImageManager.h */,
+				6BF6099A1E067AC800BDF67C /* TZImageManager.m */,
+				6BF6099B1E067AC800BDF67C /* TZImagePickerController.bundle */,
+				6BF6099C1E067AC800BDF67C /* TZImagePickerController.h */,
+				6BF6099D1E067AC800BDF67C /* TZImagePickerController.m */,
+				6BF6099E1E067AC800BDF67C /* TZPhotoPickerController.h */,
+				6BF6099F1E067AC800BDF67C /* TZPhotoPickerController.m */,
+				6BF609A01E067AC800BDF67C /* TZPhotoPreviewCell.h */,
+				6BF609A11E067AC800BDF67C /* TZPhotoPreviewCell.m */,
+				6BF609A21E067AC800BDF67C /* TZPhotoPreviewController.h */,
+				6BF609A31E067AC800BDF67C /* TZPhotoPreviewController.m */,
+				6BF609A41E067AC800BDF67C /* TZVideoPlayerController.h */,
+				6BF609A51E067AC800BDF67C /* TZVideoPlayerController.m */,
+				6BF609A61E067AC800BDF67C /* UIView+Layout.h */,
+				6BF609A71E067AC800BDF67C /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		6BF60AE11E067C3800BDF67C /* UIKit_Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6BF60AE21E067C3800BDF67C /* UIBarButtonItem+MRExtension.h */,
+				6BF60AE31E067C3800BDF67C /* UIBarButtonItem+MRExtension.m */,
+				6BF60AE41E067C3800BDF67C /* UIImage+MRExtension.h */,
+				6BF60AE51E067C3800BDF67C /* UIImage+MRExtension.m */,
+				6BF60AE61E067C3800BDF67C /* UIView+MRExtension.h */,
+				6BF60AE71E067C3800BDF67C /* UIView+MRExtension.m */,
+			);
+			path = UIKit_Categories;
+			sourceTree = "<group>";
+		};
+		6BF60AE81E067C3800BDF67C /* UIKit_Custom */ = {
+			isa = PBXGroup;
+			children = (
+				6BF60AE91E067C3800BDF67C /* MRVerticalButton.h */,
+				6BF60AEA1E067C3800BDF67C /* MRVerticalButton.m */,
+				6BF60AED1E067C3800BDF67C /* MRMainTableView.h */,
+				6BF60AEE1E067C3800BDF67C /* MRMainTableView.m */,
+				6BF60AEF1E067C3800BDF67C /* MRPageView.h */,
+				6BF60AF01E067C3800BDF67C /* MRPageView.m */,
+				6BF60AF11E067C3800BDF67C /* MRSegment.h */,
+				6BF60AF21E067C3800BDF67C /* MRSegment.m */,
+				6BF60AF31E067C3800BDF67C /* MRRadioView.h */,
+				6BF60AF41E067C3800BDF67C /* MRRadioView.m */,
+				6BF60AF51E067C3800BDF67C /* MRTextView.h */,
+				6BF60AF61E067C3800BDF67C /* MRTextView.m */,
+				6BF60AF91E067C3800BDF67C /* XYLabel.h */,
+				6BF60AFA1E067C3800BDF67C /* XYLabel.m */,
+			);
+			path = UIKit_Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +385,7 @@
 				TargetAttributes = {
 					605818E41CF33A5A009AB78F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K68RHF34H8;
 					};
 					605818FD1CF33A5A009AB78F = {
 						CreatedOnToolsVersion = 7.3;
@@ -280,7 +423,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				605818F81CF33A5A009AB78F /* LaunchScreen.storyboard in Resources */,
+				6BF609FC1E067AC900BDF67C /* CXXPhotoCell.xib in Resources */,
 				605818F51CF33A5A009AB78F /* Assets.xcassets in Resources */,
+				6BF60A001E067AC900BDF67C /* TZImagePickerController.bundle in Resources */,
 				605818F31CF33A5A009AB78F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,13 +451,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF60B4A1E067C3800BDF67C /* MRRadioView.m in Sources */,
+				6BF60B421E067C3800BDF67C /* UIBarButtonItem+MRExtension.m in Sources */,
+				6BF60B451E067C3800BDF67C /* MRVerticalButton.m in Sources */,
+				6BF609FF1E067AC900BDF67C /* TZImageManager.m in Sources */,
+				6BF60A061E067AC900BDF67C /* UIView+Layout.m in Sources */,
+				6BF60B4B1E067C3800BDF67C /* MRTextView.m in Sources */,
 				605818ED1CF33A5A009AB78F /* AppDelegate.m in Sources */,
-				017466181D2C1B5C004472AA /* Foundation+Log.m in Sources */,
+				6BF60A031E067AC900BDF67C /* TZPhotoPreviewCell.m in Sources */,
 				6058191D1CF33B26009AB78F /* MRViewController.m in Sources */,
+				6BF609FA1E067AC900BDF67C /* CXXChooseImageViewController.m in Sources */,
+				6BF608641E0676F800BDF67C /* LYNetworkTool.m in Sources */,
 				605818EA1CF33A5A009AB78F /* main.m in Sources */,
-				605819251CF346FE009AB78F /* UIView+MRExtension.m in Sources */,
-				605819281CF34B9B009AB78F /* UIImage+MRExtension.m in Sources */,
-				603359011D01756900D3FCA4 /* UIBarButtonItem+MRExtension.m in Sources */,
+				6BF60A011E067AC900BDF67C /* TZImagePickerController.m in Sources */,
+				6BF60B441E067C3800BDF67C /* UIView+MRExtension.m in Sources */,
+				6BF60A051E067AC900BDF67C /* TZVideoPlayerController.m in Sources */,
+				6BF6086F1E0677D800BDF67C /* HttpTool.m in Sources */,
+				6BF60B431E067C3800BDF67C /* UIImage+MRExtension.m in Sources */,
+				6BF60B4D1E067C3800BDF67C /* XYLabel.m in Sources */,
+				6BF60B491E067C3800BDF67C /* MRSegment.m in Sources */,
+				6BF60B471E067C3800BDF67C /* MRMainTableView.m in Sources */,
+				6BF609FE1E067AC900BDF67C /* TZAssetModel.m in Sources */,
+				6BF60A041E067AC900BDF67C /* TZPhotoPreviewController.m in Sources */,
+				6BF60B481E067C3800BDF67C /* MRPageView.m in Sources */,
+				6BF60A021E067AC900BDF67C /* TZPhotoPickerController.m in Sources */,
+				6BF609FD1E067AC900BDF67C /* TZAssetCell.m in Sources */,
+				6BF609FB1E067AC900BDF67C /* CXXPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,9 +619,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K68RHF34H8;
 				INFOPLIST_FILE = MRExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.Andrew554.MRExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.coderLL.MRExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -466,9 +631,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K68RHF34H8;
 				INFOPLIST_FILE = MRExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.Andrew554.MRExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.coderLL.MRExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

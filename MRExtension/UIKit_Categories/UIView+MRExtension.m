@@ -10,6 +10,7 @@
 
 @implementation UIView (MRExtension)
 
+
 - (void)setMr_x:(CGFloat)mr_x {
     
     CGRect frame = self.frame;
@@ -23,7 +24,6 @@
     
     return self.frame.origin.x;
 }
-
 
 - (void)setMr_y:(CGFloat)mr_y {
     

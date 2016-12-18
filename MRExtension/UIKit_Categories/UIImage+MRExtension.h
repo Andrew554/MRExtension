@@ -11,6 +11,15 @@
 @interface UIImage (MRExtension)
 
 /**
+ *  图片压缩（改变尺寸）
+ *
+ *  @param defineWidth 图片最大宽度
+ *
+ *  @return 返回压缩后图片 UIIamge
+ */
+-(UIImage *)imageCompressToWidth:(CGFloat)defineWidth;
+
+/**
  *	@brief	生成可拉伸的图片
  *
  *	@param 	imageName 	原始图片名

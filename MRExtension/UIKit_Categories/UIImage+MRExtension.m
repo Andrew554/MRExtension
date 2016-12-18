@@ -10,6 +10,26 @@
 
 @implementation UIImage (MRExtension)
 
+#pragma mark - 图片压缩（改变尺寸）
+-(UIImage *)imageCompressToWidth:(CGFloat)defineWidth
+{
+    //已经比指定宽度小就不用处理了
+    if(self.size.width>=defineWidth){
+        CGSize imageSize = self.size;
+        CGFloat width = imageSize.width;
+        CGFloat height = imageSize.height;
+        CGFloat targetWidth = defineWidth;
+        CGFloat targetHeight = (targetWidth / width) * height;
+        UIGraphicsBeginImageContext(CGSizeMake(targetWidth, targetHeight));
+        [self drawInRect:CGRectMake(0,0,targetWidth,  ceilf(targetHeight))];
+        UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        return newImage;
+    }else{
+        return self;
+    }
+}
+
 #pragma mark - 拉伸图片
 + (instancetype)mr_resizingImage:(NSString *)imageName {
     

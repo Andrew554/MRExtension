@@ -1,0 +1,43 @@
+//
+//  CXXPhotoCell.m
+//  chexiaoxi
+//
+//  Created by Qun on 16/6/29.
+//  Copyright © 2016年 IOS. All rights reserved.
+//
+
+#import "CXXPhotoCell.h"
+@interface CXXPhotoCell()
+
+@property (weak, nonatomic) IBOutlet UIButton *addImageBtn;
+@property (weak, nonatomic) IBOutlet UIButton *closeBtn;
+
+@end
+@implementation CXXPhotoCell
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    self.addImageBtn.userInteractionEnabled = NO;
+}
+
+- (void)setPhotoImg:(UIImage *)photoImg{
+    _photoImg = photoImg;
+    if (photoImg == nil) {
+        [self.addImageBtn setImage:[UIImage imageNamed:@"icon_addpic_focused"] forState:UIControlStateNormal];
+        [self.addImageBtn setImage:[UIImage imageNamed:@"icon_addpic_unfocused"] forState:UIControlStateHighlighted];
+        self.addImageBtn.userInteractionEnabled = NO;
+        self.closeBtn.hidden = YES;
+    }else{
+        [self.addImageBtn setImage:photoImg forState:UIControlStateNormal];
+        self.addImageBtn.userInteractionEnabled = YES;
+        self.closeBtn.hidden = NO;
+    }
+}
+
+
+- (IBAction)closeBtnClick:(id)sender {
+    if ([self.delegate respondsToSelector:@selector(photoCellRemovePhotoBtnClickForCell:)]) {
+        [self.delegate photoCellRemovePhotoBtnClickForCell:self];
+    }
+}
+
+@end
